@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.card {
+    width: 280px;
+    border: 3px solid;
+    border-radius: 5px;
+}
+.card h2 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: calc(280px - 20px);
+    background-color: #dadada;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card .card-text {
+    padding: 15px;
+}
+.card .card-text h3 {
+    margin-bottom: 10px;
+}
+.primary {
+    border-color: #98CBED;
+}
+.primary p {
+    color: #98CBED;
+}
+.secondary {
+    border-color: #bdbdbd;
+}
+.secondary p {
+    color: #bdbdbd;
+}
+.danger {
+    border-color: #ff3258;
+}
+.danger p {
+    color: #ff3258;
+}
